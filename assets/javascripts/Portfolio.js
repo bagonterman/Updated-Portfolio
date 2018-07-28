@@ -13,7 +13,19 @@ $(document).ready(function () {
                         <li class="first"> About me
                         
                         <div class="popLeft">
-                          <div class="bob" ></div>
+                            <div class="bob" >
+
+                                <div class="containerB">
+                                        
+                                        <ul class="signup-listB">
+                                        <div class="firstB">
+                                        </div>
+                                        <div class="secondB"></div>
+                                        <div class="thirdB">A little something about me.</div>
+                                        
+                                        </ul>
+                                </div>
+                            </div>
 
                         </div>
                         
@@ -28,43 +40,6 @@ $(document).ready(function () {
                 </div>
                 
         </div>
-<div class="aboutMeBox">
-    <p class="about_me">
-
-        <h1 class="btMe">
-            <strong>
-                About Me
-            </strong>
-        </h1>
-
-    </p>
-    <hr color="#7a7a7a">
-    <section class="bioPic">
-        <img id="profile_Image" src="./assets/images/Me.jpeg" alt="Photo of Brett Gonterman" width="130">
-        <br>
-
-    </section>
-
-
-
-    <p class="text">
-
-        "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque
-        ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-        voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
-        voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
-        velit, sed quia non numquam eius modi.
-        <br> "Tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem". Ut enim ad minima veniam, quis nostrum
-        exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel
-        eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem
-        eum fugiat quo voluptas nulla pariatur?"
-        <br> "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo
-        enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos
-        qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
-        adipisci velit, sed quia non numquam eius modi".
-    </p>
-</div>
 
 <div class="footer"></div>
 <div class="bar"></div>`);
@@ -78,7 +53,7 @@ $(document).ready(function () {
         var indexClass = buttonValue.indexOf(" ");
         var linkName = buttonValue.slice(indexClass + 1);///Value of second class name
         console.log(linkName)
-        linkName == "first" ? buildAboutMe() : (linkName == "second" ? buildPortfolio() : buildContact());
+        linkName == "first" ? buildAboutMe() : (linkName == "second" ? buildPortfolio() : (linkName == "third" ? buildContact() : (linkName == "thirdB" ? moreAboutMe() : "default")));
     });
     /////////////////////
     function buildContact() {
@@ -212,5 +187,21 @@ $(document).ready(function () {
 </div>
 <div class="wrapper footer"></div>
 <div class="bar"></div>`);
+    }
+    function moreAboutMe() {
+        $(".thirdB").html('<p class="text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi. <br> Tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem". Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>');
+        $(".thirdB").width(500);
+        $(".thirdB").height(300);
+        //$(".thirdB").css({ top: -50, left: -50, position: 'absolute' });
+        $(".thirdB").css({ marginLeft: "-150px" });
+        $(".thirdB").css({ marginTop: "-50px" });
+        $('.thirdB').css("font-size", "12px");
+        $(".thirdB").mouseout(function () {
+            $(".thirdB").html('<div class="thirdB">A little something about me.</div>');
+            $(".thirdB").width(200);
+            $(".thirdB").height(80);
+            $('.thirdB').css("font-size", "18px");
+            $(".thirdB").css({ marginLeft: "0px" });
+        });
     }
 });

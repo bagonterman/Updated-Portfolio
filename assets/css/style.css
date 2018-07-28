@@ -33,23 +33,43 @@ ul, li {
     width: 0; 
     height: 0; 
     border-left: 50px solid transparent; 
-    border-top: 78px solid #4aaaa5; 
+    border-top: 78px solid #ffffff; 
 }
 /* ////testing pop out here///////// */
-
-.bob:hover {
+.bob{
     /* margin: 40px auto 0; */
     width: 200px;
    height: 100%;
+   /* visibility: hidden; */
+   opacity: 0;
+   /* overflow: hidden; */
+    /* ///container width */
+}
+
+.bob:hover {
+    /* margin: 40px auto 0; */
+    opacity: 100;
+    width: 200px;
+   height: 100%;
    position: absolute;
-    background-color: #aa4a52;
     /* ///container width */
 }
 
 
 
 /* /////////testint  testing //////////// */
-
+.containerB {
+    margin: 80px auto 0;
+    margin-top: 90px;
+    margin-left:98px;
+    width: 300px;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+   
+}
 
 
 
@@ -57,66 +77,110 @@ ul, li {
 
 .popLeft{
     content:"bob";
-    /* visibility: hidden; */
     position:absolute;
-    /* display: none; */
-    /* top:0;
-    left: -50px; */
-    /* float: right; */
     width: 200px; 
     height: 90px; 
-    /* background-color: #37807c; */
-    /* background-color: #3e3780; */
     margin-left: 350px;
     margin-top: -33px;
-    /* border-left: 50px solid transparent; 
-    border-top: 78px solid #aa704a;  */
 }
 .popLeft:hover {
     content:"bob";
     position:absolute;
-    /* top:0;
-    left: -50px; */
-    /* float: right; */
     width: 400px; 
     height: 90px; 
-    background-color: #8daa4a;
-    background-image: url("../images/Me.png");
+    background-color: #ffffff;
+    background-image: url("../images/Me3.png");
     background-repeat: no-repeat;
-    background-position: 49%;
+    /* background-position: 49%; */
+    background-position-x: 90px;
     background-size: 50%;
-    margin-left: 430px;
-    margin-top: -33px;
+    margin-left: 450px;
+    margin-top: -43px;
     /* background: #37807c; */
     -webkit-transition: 0.2s linear .6s;
     -o-transition: 0.2s linear .6s;
     transition: 0.2s linear .6s;
     -webkit-transform: scale(1); 
 }
-/* .signup-container:after {
-    content:"";
-    position:absolute;
-    top:0;
-    left: 230px;
-    width: 0; 
-    height: 0; 
-    border-right: 20px solid transparent; 
-    border-bottom: 39px solid #4aaaa5; 
-} */
-/* .signup-list li:after {
-    content:"";
-    position:absolute;
-   
-    top:0;
-    left: 300px;
-    width: 20; 
-    height: 20; 
-    border-right: 20px solid transparent; 
-    border-bottom: 39px solid #4aaaa5; 
-} */
+
+.containerB:hover .signup-listB .firstB {
+    height: 80px;
+    width: 200px;
+    background:rgb(255, 0, 157);
+    background-image: url("../images/Me3.png");
+    background-repeat: no-repeat;
+    /* background-position: 49%; */
+    background-position-x: -8px;
+    background-position-y: -90px;
+    background-size: 100%; 
+    -webkit-transform: perspective(200px) rotateX(0deg);
+    -o-transform: perspective(200px) rotateX(0deg);
+    transform: perspective(200px) rotateX(0deg);
+    -webkit-transition: 0.2s linear 0s;
+    -o-transition: 0.2s linear 0s;
+    transition: 0.2s linear 0s;
+
+}
+.containerB:hover .signup-listB .secondB {
+    height: 80px;
+    width: 200px;
+    background:rgb(255, 136, 0);
+    background-image: url("../images/Me3.png");
+    background-repeat: no-repeat;
+    background-position-x: -8px;
+    background-position-y: -170px;
+    background-size: 100%; 
+    -webkit-transform: perspective(200px) rotateX(0deg);
+    -o-transform: perspective(200px) rotateX(0deg);
+    transform: perspective(200px) rotateX(0deg);
+    -webkit-transition: 0.5s linear 0s;
+    -o-transition: 0.5s linear 0s;
+    transition: 0.5s linear 0s;
+
+}
+
+.containerB:hover .signup-listB .thirdB {
+    height: 80px;
+    width: 200px;
+    background:#ffffff;
+    -webkit-transform: perspective(200px) rotateX(0deg);
+    -o-transform: perspective(200px) rotateX(0deg);
+    transform: perspective(200px) rotateX(0deg);
+    -webkit-transition: 1s linear 0s;
+    -o-transition: 1s linear 0s;
+    transition: 1s linear 0s;
+}
+
+.signup-listB .firstB {
+    -webkit-transform-origin: 50% 0%;
+    -o-transform-origin: 50% 0%;
+    transform-origin: 50% 0%;
+    -webkit-transform: perspective(400px) rotateX(-90deg);
+    -o-transform: perspective(400px) rotateX(-90deg);
+    transform: perspective(400px) rotateX(-90deg); 
+    
+}
+
+.signup-listB .secondB {
+    -webkit-transform-origin: 50% 0%;
+    -o-transform-origin: 50% 0%;
+    transform-origin: 50% 0%;
+    -webkit-transform: perspective(400px) rotateX(-90deg);
+    -o-transform: perspective(400px) rotateX(-90deg);
+    transform: perspective(400px) rotateX(-90deg); 
+}
+
+.signup-listB .thirdB {
+    -webkit-transform-origin: 50% 0%;
+    -o-transform-origin: 50% 0%;
+    transform-origin: 50% 0%;
+    -webkit-transform: perspective(400px) rotateX(-90deg);
+    -o-transform: perspective(400px) rotateX(-90deg);
+    transform: perspective(400px) rotateX(-90deg); 
+}
 
 .signupAd {
-    background: #4aaaa5;
+    background: #ffffff;
     float: left;
     width:400px;
     padding: 10px;
@@ -131,21 +195,21 @@ ul, li {
     display: block;
     font-family: "Helvetica Neue";
     font-weight: bold; 
-    color: #ffffff;
+    color: #dddddd;
     font-size: 40px;
 }
 .signup-list {
     /* overflow: hidden; */
     width: 100%;
     box-sizing: border-box;
-    color: #ffffff;
-    font-size: 13px;
+    color: #dddddd;
+    font-size: 20px;
     margin-top: 77px;
 }
 
 .signup-list li {
     cursor: pointer;
-    background: #4aaaa5;
+    background: #fafafa;
     padding: 15px 50px;
     height: 90px;
 }
@@ -179,7 +243,7 @@ li.first{
 }
 
 .signup-list .first {
-    background: #37807c;
+    background: #ffffff;
     -webkit-transition: 0.2s linear 0.8s;
     -o-transition: 0.2s linear 0.8s;
     transition: 0.2s linear 0.8s;
@@ -193,7 +257,7 @@ li.first{
 }
 
 .signup-list .third {
-    background: #37807c;
+    background: #ffffff;
     -webkit-transition: 0.2s linear 0.4s;
     -o-transition: 0.2s linear 0.4s;
     transition: 0.2s linear 0.4s;
