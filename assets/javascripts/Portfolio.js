@@ -44,6 +44,19 @@ $(document).ready(function () {
 <div class="footer"></div>
 <div class="bar"></div>`);
     }
+    getData("ArrowGraphic")
+    function getData(name) {
+        $.ajax({
+            url: name + ".html",
+            success: function (response) {
+                if (response == "false") {
+                    alert("YA DUMMI");
+                } else {
+                    first.innerHTML = response;
+                }
+            }
+        });
+    }
 
     ///event listeners////
     $(document).on("click", "body", function (e) {
@@ -56,9 +69,7 @@ $(document).ready(function () {
         linkName == "first" ? buildAboutMe() : (linkName == "second" ? buildPortfolio() : (linkName == "third" ? buildContact() : (linkName == "thirdB" ? moreAboutMe() : "default")));
     });
     /////////////////////
-    function delay(what2delay) {
-        myVar = setTimeout(wat2delay, 1000);
-    }
+
     function buildContact() {
         $("body").html(`<div class="wrapper hdrGrid">
         <div class="whtBkgrnd">
@@ -183,8 +194,9 @@ $(document).ready(function () {
     <h5 class="rowTwo">Rock Paper Scissors</h5>
 </div>
 <div class="content">
-    <img class="portImage" src="./assets/images/CoverTemp-ui.png" alt="UI" width="130" >
-    <h5 class="rowThree">UI</h5>
+    <a href=https://github.com/bagonterman/Store_Front_app>
+    <img class="portImage" src="./assets/images/Bamazon_Customer_snapshot.png" alt="UI" width="130" >
+    <h5 class="rowThree">Store Front Node app</h5>
 </div>
 
 </div>
