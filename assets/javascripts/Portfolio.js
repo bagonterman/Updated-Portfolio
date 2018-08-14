@@ -199,7 +199,7 @@ $(document).ready(function () {
     <h5 class="rowThree">Store Front Node app</h5>
 </div>
 <div class="content">
-    <a href=https://bagonterman.github.io/Friend_Finder/>
+    <a href=https://bagonterman.github.io/Friend_Finder/app/public/home.html>
     <img class="portImage" src="./assets/images/Friends.svg" alt="UI" width="130" >
     <h5 class="rowThree">Friend Finder</h5>
 </div>
