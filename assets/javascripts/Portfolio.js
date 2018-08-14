@@ -198,6 +198,11 @@ $(document).ready(function () {
     <img class="portImage" src="./assets/images/Bamazon_Customer_snapshot.png" alt="UI" width="130" >
     <h5 class="rowThree">Store Front Node app</h5>
 </div>
+<div class="content">
+    <a href=https://bagonterman.github.io/Friend_Finder/>
+    <img class="portImage" src="./assets/images/Friends.svg" alt="UI" width="130" >
+    <h5 class="rowThree">Friend Finder</h5>
+</div>
 
 </div>
 <div class="wrapper footer"></div>
