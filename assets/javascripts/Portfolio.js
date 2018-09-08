@@ -11,7 +11,6 @@ $(document).ready(function () {
                         <div class="outside">
                         <ul class="signup-list">
                         <li class="first"> About me
-                        ${}
                         <div class="popLeft">
                             <div class="bob" >
 
@@ -48,12 +47,12 @@ $(document).ready(function () {
     getData("ArrowGraphic")
     function getData(name) {
         $.ajax({
-            url: "Updated-Portfolio/assets/images/" + name + ".html",
+            url: "/assets/images/" + name + ".html",
             success: function (response) {
                 if (response == "false") {
                     alert("YA DUMMI");
                 } else {
-                    $(".first").html("<span class='red'>Hello <b>Again</b></span>");
+                    $(".first").html(response);
                     //first.innerHTML = response;
                 }
             }
