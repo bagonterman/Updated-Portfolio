@@ -53,7 +53,7 @@ $(document).ready(function () {
                     alert("YA DUMMI");
                 } else {
                     //first.innerHTML = response;
-                    $(".first").html("<div>" + response + "</div>");
+                    $(".first").append("<div>" + response + "</div>");
                 }
             }
         });
