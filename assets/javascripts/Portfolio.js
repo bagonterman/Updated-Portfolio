@@ -47,7 +47,7 @@ $(document).ready(function () {
     getData("ArrowGraphic")
     function getData(name) {
         $.ajax({
-            url: name + ".html",
+            url: "/assets/images/" + name + ".html",
             success: function (response) {
                 if (response == "false") {
                     alert("YA DUMMI");
