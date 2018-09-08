@@ -53,7 +53,7 @@ $(document).ready(function () {
                 if (response == "false") {
                     alert("YA DUMMI");
                 } else {
-                    $(".first").html(response);
+                    $(".first").html("<span class='red'>Hello <b>Again</b></span>");
                     //first.innerHTML = response;
                 }
             }
