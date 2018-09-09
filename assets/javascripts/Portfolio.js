@@ -53,7 +53,7 @@ $(document).ready(function () {
                     alert("YA DUMMI");
                 } else {
                     //first.innerHTML = response;
-                    $(".first").append("<div class='arrow w3-container w3-center w3-animate-left'>" + response + "</div>");
+                    $(".first").append("<div class='arrow'>" + response + "</div>");
                 }
             }
         });
