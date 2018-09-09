@@ -36,9 +36,20 @@ ul, li {
     border-top: 78px solid #ffffff; 
 }
 .arrow{
-    width:22%;
+    width:17%;
     float: right;
     margin-right: 20px;
+    bottom:15%;
+    position:absolute;
+    -webkit-animation:linear infinite alternate;
+    -webkit-animation-name: run;
+    -webkit-animation-duration: 5s;
+}     
+@-webkit-keyframes run {
+    0% { left: 0;}
+    50%{ left : 100%;}
+    100%{ left: 0;}
+    
 }
 /* ////testing pop out here///////// */
 .bob{

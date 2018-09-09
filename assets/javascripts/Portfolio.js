@@ -71,7 +71,7 @@ $(document).ready(function () {
             linkName == "first" ? buildAboutMe() : (linkName == "second" ? buildPortfolio() : (linkName == "third" ? buildContact() : (linkName == "thirdB" ? moreAboutMe() : "default")));
         }
         catch (err) {
-            console.log(err)
+            //console.log(err)
         }
     });
     /////////////////////
