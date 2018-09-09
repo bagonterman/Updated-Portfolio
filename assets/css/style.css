@@ -41,9 +41,10 @@ ul, li {
     margin-right: 20px;
     bottom:3%;
     position:absolute;
-    -webkit-animation:linear infinite alternate;
-    -webkit-animation-name: run;
-    -webkit-animation-duration: 5s;
+    -webkit-animation-name: bounce;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-iteration-count: 10;
+    -webkit-animation-direction: alternate;
 }     
 @-webkit-keyframes bounce {
    from{ left: 0;
