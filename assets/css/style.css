@@ -39,7 +39,7 @@ ul, li {
     width:17%;
     float: right;
     margin-right: 20px;
-    /* bottom:15%; */
+    bottom:3%;
     position:absolute;
     -webkit-animation:linear infinite alternate;
     -webkit-animation-name: run;
@@ -48,7 +48,7 @@ ul, li {
 @-webkit-keyframes run {
     0% { left: 0;}
     50%{ left : 70%;}
-    100%{ left: 0;}
+    100%{ left: 30;}
     
 }
 /* ////testing pop out here///////// */
