@@ -45,10 +45,13 @@ ul, li {
     -webkit-animation-name: run;
     -webkit-animation-duration: 5s;
 }     
-@-webkit-keyframes run {
-    0% { left: 0;}
-    50%{ left : 70%;}
-    100%{ left: 30;}
+@-webkit-keyframes bounce {
+   from{ left: 0;
+    }
+    to{
+        left:100px;
+    }
+    
     
 }
 /* ////testing pop out here///////// */
