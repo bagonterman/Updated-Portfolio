@@ -36,7 +36,8 @@ ul, li {
     border-top: 78px solid #ffffff; 
 }
 .arrow{
-    width:40%
+    width:10%;
+    float: right;
 }
 /* ////testing pop out here///////// */
 .bob{
