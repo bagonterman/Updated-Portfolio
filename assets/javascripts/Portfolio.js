@@ -64,10 +64,15 @@ $(document).ready(function () {
         //alert("Handler for .click() called." + e);
         e.preventDefault();
         var buttonValue = $(e.target).attr("class");
-        var indexClass = buttonValue.indexOf(" ");
-        var linkName = buttonValue.slice(indexClass + 1);///Value of second class name
-        console.log(linkName)
-        linkName == "first" ? buildAboutMe() : (linkName == "second" ? buildPortfolio() : (linkName == "third" ? buildContact() : (linkName == "thirdB" ? moreAboutMe() : "default")));
+        try {
+            var indexClass = buttonValue.indexOf(" ");
+            var linkName = buttonValue.slice(indexClass + 1);///Value of second class name
+            console.log(linkName)
+            linkName == "first" ? buildAboutMe() : (linkName == "second" ? buildPortfolio() : (linkName == "third" ? buildContact() : (linkName == "thirdB" ? moreAboutMe() : "default")));
+        }
+        catch (err) {
+            console.log(err)
+        }
     });
     /////////////////////
 
