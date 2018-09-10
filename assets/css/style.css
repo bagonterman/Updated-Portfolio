@@ -42,12 +42,12 @@ ul, li {
     bottom:3%;
     position:absolute;
     -webkit-animation-name: bounce;
-    -webkit-animation-duration: 4s;
+    -webkit-animation-duration: 1s;
     -webkit-animation-iteration-count: 10;
     -webkit-animation-direction: alternate;
 }     
 @-webkit-keyframes bounce {
-   from{ left: 0;
+   from{ left: 50px;
     }
     to{
         left:100px;
