@@ -40,7 +40,7 @@ ul, li {
 .arrow{
     width:15%;
     float: right;
-    margin-left: 200px;
+    margin-left: 260px;
     bottom:3%;
     position:absolute;
     -webkit-animation-name: bounce;
@@ -49,10 +49,10 @@ ul, li {
     -webkit-animation-direction: alternate;
 }     
 @-webkit-keyframes bounce {
-   from{ left: 300px;
+   from{ left: 225px;
     }
     to{
-        left:350px;
+        left:275px;
     }
     
     

@@ -68,7 +68,7 @@ $(document).ready(function () {
             var indexClass = buttonValue.indexOf(" ");
             var linkName = buttonValue.slice(indexClass + 1);///Value of second class name
             console.log(linkName)
-            linkName == "first" || linkName == "about" ? buildAboutMe() : (linkName == "second" ? buildPortfolio() : (linkName == "third" ? buildContact() : (linkName == "thirdB" ? moreAboutMe() : "default")));
+            linkName == "first" || linkName == "about" ? buildAboutMe() : (linkName == "second" || linkName == "port" ? buildPortfolio() : (linkName == "third" || linkName == "con" ? buildContact() : (linkName == "thirdB" ? moreAboutMe() : "default")));
         }
         catch (err) {
             //console.log(err)
