@@ -287,12 +287,14 @@ li.first{
 
 
 .signup-container:hover .signup-list li {
+
     -webkit-transform: perspective(350px) rotateX(0deg);
     -o-transform: perspective(350px) rotateX(0deg) rotateY(30deg);
     transform: perspective(350px) rotateX(0deg);
     -webkit-transition: 0.2s linear 0s;
     -o-transition: 0.2s linear 0s;
     transition: 0.2s linear 0s;
+    /* margin-top: 90px; */
 }
 
 .signup-container:hover .signup-list .second {
@@ -356,8 +358,8 @@ li.first{
 }
 .btMe{
 
-font-family: "Times New Roman";
-color: #4aaaa5; text-decoration: none;
+font-family: "Helvetica Neue";
+color: #000000; text-decoration: none;
 font-size: 28px;
 font-weight: bold;
 }
@@ -377,7 +379,7 @@ font-weight: bold;
     height: 600%;
     /* margin-left: 20%; */
     margin-right: 8%;
-    margin-top: -50px;
+    margin-top: -250px;
     margin-left:50px;
     margin-bottom: 40px;
     padding: .1in;
