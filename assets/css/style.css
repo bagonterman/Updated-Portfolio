@@ -47,10 +47,10 @@ ul, li {
     -webkit-animation-direction: alternate;
 }     
 @-webkit-keyframes bounce {
-   from{ left: 50px;
+   from{ left: 300px;
     }
     to{
-        left:100px;
+        left:350px;
     }
     
     
