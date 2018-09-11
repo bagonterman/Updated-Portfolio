@@ -130,32 +130,25 @@ $(document).ready(function () {
     }
     function buildPortfolio() {
         $("body").html(`              <div class="wrapper hdrGrid">
-    <div class="whtBkgrnd">
-    <h1 class="myHeader"  >
-        <strong>    
-    Brett Gonterman
-        </strong>  
-    </h1>
+        <div class="container">
+        <div class="signup-container unfold">
+            <div class="signupAd">
+            <div class="headline">Brett Gonterman</div>
+            </div>
+            <div class="outside">
+            <ul class="signup-list">
+            <li class="first"> About me
+            </li>
+            <li class="second">Portfolio</li>
+            <li class="third">Contacts</li>
+            
+            </ul>
+            </div>
+        </div>
+        
     </div>
-<div class="whiteBox">
-    <div class="newHope">
-    <!-- <div class="spotForLinks"> -->
-        <!-- <section class="contactSection"> -->
-            <!--Trying to add heading to follow general guidance-->
-        <!-- <div> -->
-            <h3>
-            <a class="contactLink about" href="index.html">
-                About
-            </a>
-            <a class="contactLink port" href="portfolio.html">
-                Portfolio
-            </a>
-            <a class="contactLink con" href="contact.html">
-                Contacts
-            </a>
-        </h3>
-    </div>
-</div>
+    
+
 </div>
     <!-- </div> -->
         <!-- </section> -->

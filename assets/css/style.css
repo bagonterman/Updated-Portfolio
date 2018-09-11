@@ -45,14 +45,14 @@ ul, li {
     position:absolute;
     -webkit-animation-name: bounce;
     -webkit-animation-duration: 1s;
-    -webkit-animation-iteration-count: 10;
+    -webkit-animation-iteration-count: 7;
     -webkit-animation-direction: alternate;
 }     
 @-webkit-keyframes bounce {
-   from{ left: 175px;
+   from{ left: 40px;
     }
     to{
-        left:215px;
+        left:90px;
     }
     
     
@@ -377,7 +377,7 @@ font-weight: bold;
     height: 600%;
     /* margin-left: 20%; */
     margin-right: 8%;
-    margin-top: 50px;
+    margin-top: -50px;
     margin-left:50px;
     margin-bottom: 40px;
     padding: .1in;
