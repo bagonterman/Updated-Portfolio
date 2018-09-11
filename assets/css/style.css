@@ -501,6 +501,7 @@ p{
 }
 .footer{
     background-color:#777777;
+    margin-top:33%;
     height: 50px;
     width:100%;
     /* position: absolute; */
