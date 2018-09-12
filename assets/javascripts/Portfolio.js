@@ -130,84 +130,90 @@ $(document).ready(function () {
         //alert("farts");
     }
     function buildPortfolio() {
-        $("body").html(`              <div class="wrapper hdrGrid">
-        <div class="container">
-        <div class="signup-container unfold">
-            <div class="signupAd">
-            <div class="headline">Brett Gonterman</div>
-            </div>
-            <div class="outside">
-            <ul class="signup-list">
-            <li class="first"> About me
+        $("body").html(`<div class="wrapper hdrGrid">
+            <div class="container">
+                <div class="signup-container unfold">
+                    <div class="signupAd">
+                        <div class="headline">Brett Gonterman</div>
+                    </div>
+                    <div class="outside">
+                        <ul class="signup-list">
+                            <li class="first"> About me
             </li>
-            <li class="second">Portfolio</li>
-            <li class="third">Contacts</li>
-            
-            </ul>
+                            <li class="second">Portfolio</li>
+                            <li class="third">Contacts</li>
+
+                        </ul>
+                    </div>
+                </div>
+
             </div>
+
+
         </div>
-        
-    </div>
-    
 
-</div>
-    <!-- </div> -->
-        <!-- </section> -->
-    <!-- </div>       -->
+            <div class="aboutMeBox">
+                <p class="about_me">
 
-<!-- </div> -->
-
-<div class="aboutMeBox">
-    <p class="about_me">
-           
-            <h1 class="btMe"> 
-                <strong>
-                Portfolio
+                    <h1 class="btMe">
+                        <strong>
+                            Portfolio
                 </strong>
-            </h1>
-            
-    </p>
-    <hr color="#7a7a7a">
-<div class="wrapper folioBox">
-<div class="content">
-<a(href="#!{https://bagonterman.github.io/Word-Guess-Game/}")>
-    <img class="portImage" src="./assets/images/Hangman.png" alt="Hangman" width="130" ></a>
-    <h5 class="rowOne">Hangman</h5>
-</div>
-<div class="content">
-<a href="https://bagonterman.github.io/unit-4-game/">
-    <img class="portImage" src="./assets/images/StarWarsRPG.png" alt="RPG Game" width="130" ></a>
-    <h5 class="rowOne">RPG Game</h5>
-</div>
-<div class="content">
-    <a href=https://bagonterman.github.io/TriviaGame/>
-    <img class="portImage" src="./assets/images/Trivia.png" alt="Trivia Game" width="130" ></a>
-    <h5 class="rowOne">Trivia Game</h5>
-</div>
-<div class="content">
-    <a href=https://bagonterman.github.io/Gify-app/>
-    <img class="portImage" src="./assets/images/gIfy.png" alt="GifTastic" width="130" ></a>
-    <h5 class="rowTwo">Rutgers Info Widget</h5>
-</div>
-<div class="content">
-    <a href=https://bagonterman.github.io/RPS-Multiplayer/>
-    <img class="portImage" src="./assets/images/rockPaperScissors.png" alt="Rock Paper Scissors" width="130" ></a>
-    <h5 class="rowTwo">Rock Paper Scissors</h5>
-</div>
-<div class="content">
-    <a href=https://github.com/bagonterman/Store_Front_app>
-    <img class="portImage" src="./assets/images/Bamazon_Customer_snapshot.png" alt="UI" width="130" ></a>
-    <h5 class="rowThree">Store Front Node app</h5>
-</div>
-<div class="content">
-    <a href=https://bagonterman.github.io/Friend_Finder/app/public/home.html>
-    <img class="portImage" src="./assets/images/Friends.svg" alt="UI" width="130" ></a>
-    <h5 class="rowThree">Friend Finder</h5>
-</div>
+                    </h1>
 
-</div>
-<div class="wrapper footer"></div>
-<div class="bar"></div>`);
+                </p>
+                <hr color="#7a7a7a"></hr>
+                <div class="wrapper folioBox">
+                    <div class="content">
+                        <a href="https://bagonterman.github.io/Word-Guess-Game/">
+                            <img class="portImage" src="./assets/images/Hangman.png" alt="Hangman" width="130" ></img>
+
+                            <h5 class="rowOne">Hangman</h5>
+                        </a>
+                    </div>
+                    <div class="content">
+                        <a href="https://bagonterman.github.io/unit-4-game/">
+                            <img class="portImage" src="./assets/images/StarWarsRPG.png" alt="RPG Game" width="130" ></img>
+                            <h5 class="rowOne">RPG Game</h5>
+                        </a>
+                    </div>
+                    <div class="content">
+                        <a href="https://bagonterman.github.io/TriviaGame/">
+                            <img class="portImage" src="./assets/images/Trivia.png" alt="Trivia Game" width="130" ></img>
+                            <h5 class="rowOne">Trivia Game</h5>
+                        </a>
+                    </div>
+                    <div class="content">
+                        <a href="https://bagonterman.github.io/Gify-app/">
+                            <img class="portImage" src="./assets/images/gIfy.png" alt="GifTastic" width="130" ></img>
+                            <h5 class="rowTwo">Giffy-app</h5>
+                        </a>
+                    </div>
+                    <div class="content">
+                        <a href="https://bagonterman.github.io/RPS-Multiplayer/">
+                            <img class="portImage" src="./assets/images/rockPaperScissors.png" alt="Rock Paper Scissors" width="130" ></img>
+
+                            <h5 class="rowTwo">Rock Paper Scissors</h5>
+                        </a>
+                    </div>
+                    <div class="content">
+                        <a href="https://github.com/bagonterman/Store_Front_app">
+                            <img class="portImage" src="./assets/images/Bamazon_Customer_snapshot.png" alt="UI" width="130" ></img>
+
+                            <h5 class="rowThree">Store Front Node app</h5>
+                        </a>
+                    </div>
+                    <div class="content">
+                        <a href="https://bagonterman.github.io/Friend_Finder/app/public/home.html">
+                            <img class="portImage" src="./assets/images/Friends.svg" alt="UI" width="130" ></img>
+
+                            <h5 class="rowThree">Friend Finder</h5>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="wrapper footer"></div>
+            <div class="bar"></div>`);
         $(".third").hover(function () {
             console.log("hmmm");
             $(".aboutMeBox").css('margin-top', "90px");
