@@ -102,7 +102,7 @@ $(document).ready(function () {
         </div>
     </div>
 </div>
-        <div class="aboutMeBox">
+        <div class="contactBox">
                 <p class="about_me">
                        
                         <h1 class="btMe"> 
@@ -190,7 +190,8 @@ $(document).ready(function () {
     <h5 class="rowTwo">Rutgers Info Widget</h5>
 </div>
 <div class="content">
-    <img class="portImage" src="./assets/images/CoverTemp-ui.png" alt="Rock Paper Scissors" width="130" >
+    <a href=https://bagonterman.github.io/RPS-Multiplayer/>
+    <img class="portImage" src="./assets/images/rockPaperScissors.png" alt="Rock Paper Scissors" width="130" >
     <h5 class="rowTwo">Rock Paper Scissors</h5>
 </div>
 <div class="content">
