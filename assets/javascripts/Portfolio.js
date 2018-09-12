@@ -170,7 +170,7 @@ $(document).ready(function () {
     <hr color="#7a7a7a">
 <div class="wrapper folioBox">
 <div class="content">
-<a href="https://bagonterman.github.io/Word-Guess-Game/">
+<a(href="#!{https://bagonterman.github.io/Word-Guess-Game/}")>
     <img class="portImage" src="./assets/images/Hangman.png" alt="Hangman" width="130" ></a>
     <h5 class="rowOne">Hangman</h5>
 </div>
@@ -181,27 +181,27 @@ $(document).ready(function () {
 </div>
 <div class="content">
     <a href=https://bagonterman.github.io/TriviaGame/>
-    <img class="portImage" src="./assets/images/Trivia.png" alt="Trivia Game" width="130" >
+    <img class="portImage" src="./assets/images/Trivia.png" alt="Trivia Game" width="130" ></a>
     <h5 class="rowOne">Trivia Game</h5>
 </div>
 <div class="content">
     <a href=https://bagonterman.github.io/Gify-app/>
-    <img class="portImage" src="./assets/images/gIfy.png" alt="GifTastic" width="130" >
+    <img class="portImage" src="./assets/images/gIfy.png" alt="GifTastic" width="130" ></a>
     <h5 class="rowTwo">Rutgers Info Widget</h5>
 </div>
 <div class="content">
     <a href=https://bagonterman.github.io/RPS-Multiplayer/>
-    <img class="portImage" src="./assets/images/rockPaperScissors.png" alt="Rock Paper Scissors" width="130" >
+    <img class="portImage" src="./assets/images/rockPaperScissors.png" alt="Rock Paper Scissors" width="130" ></a>
     <h5 class="rowTwo">Rock Paper Scissors</h5>
 </div>
 <div class="content">
     <a href=https://github.com/bagonterman/Store_Front_app>
-    <img class="portImage" src="./assets/images/Bamazon_Customer_snapshot.png" alt="UI" width="130" >
+    <img class="portImage" src="./assets/images/Bamazon_Customer_snapshot.png" alt="UI" width="130" ></a>
     <h5 class="rowThree">Store Front Node app</h5>
 </div>
 <div class="content">
     <a href=https://bagonterman.github.io/Friend_Finder/app/public/home.html>
-    <img class="portImage" src="./assets/images/Friends.svg" alt="UI" width="130" >
+    <img class="portImage" src="./assets/images/Friends.svg" alt="UI" width="130" ></a>
     <h5 class="rowThree">Friend Finder</h5>
 </div>
 
