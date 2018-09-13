@@ -21,7 +21,7 @@ $(document).ready(function () {
                                         <div class="firstB">
                                         </div>
                                         <div class="secondB"></div>
-                                        <div class="thirdB">A little something about me.</div>
+                                        <div class="thirdB">Click here to learn a little more about me.</div>
                                         
                                         </ul>
                                 </div>
@@ -31,13 +31,33 @@ $(document).ready(function () {
                         
                         </li>
                         <li class="second">Portfolio</li>
-                        <li class="third">Contacts</li>
+                        <li class="third">Contacts
+
+                        <div class="homePageLinks">
+                            <h3>
+                                <a class="github Link" href="https://github.com/bagonterman" >
+                                Github link
+                            </a>
+                            <br>
+                                <a class="linkedIn Link" href="https://www.linkedin.com/in/brett-gonterman-a763703b/">
+                                    LinkedIn
+                            </a>
+                            <br>
+                                <a class="email Link" >
+                                    email: brettgonterman@sbcglobal.net
+                            </a>
+                            </h3>
+                        </div>
+                        
+                        </li>
+                        
                         
                         </ul>
                         </div>
                     </div>
                     
                 </div>
+            
                 
         </div>
 
@@ -91,10 +111,10 @@ $(document).ready(function () {
                 <a class="contactLink about" href="index.html" >
                     About
                 </a>
-                <a class="contactLink port" href="portfolio.html">
+                <a class="contactLink port" >
                     Portfolio
                 </a>
-                <a class="contactLink con" href="contact.html">
+                <a class="contactLink con" >
                     Contacts
                 </a>
             </h3>
@@ -251,6 +271,7 @@ $(document).ready(function () {
             $('.thirdB').css("font-size", "18px");
             $(".thirdB").css({ marginLeft: "0px" });
             $(".thirdB").css({ marginTop: "0px" });
+
         });
     }
 });

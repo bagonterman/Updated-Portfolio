@@ -199,6 +199,7 @@ ul, li {
     -webkit-transform: perspective(400px) rotateX(-90deg);
     -o-transform: perspective(400px) rotateX(-90deg);
     transform: perspective(400px) rotateX(-90deg); 
+    font-size: 90%;
 }
 
 .signupAd {
@@ -455,6 +456,25 @@ font-family: "Helvetica Neue";
 color:#777777; text-decoration: none;
 
 }
+.homePageLinks{
+/* float:left; */
+margin-top:60px;
+margin-left:-35px;
+}
+/* .third{
+    position: absolute;
+} */
+.Link{
+    /* margin-right: 80px; */
+    /* a:link { color: #000000; text-decoration: none}
+    a:visited { color: #000000; text-decoration: none}
+    a:hover { color: #3366CC; text-decoration: underline}
+    a:active { color: #000000; text-decoration: none} */
+    font-size: 60%;
+    font-family: "Helvetica Neue";
+    color:#777777; text-decoration: none;
+    
+    }
 
 .div.col-md-9.spotForLinks{
     background-color:#ffffff;
