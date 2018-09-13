@@ -43,9 +43,9 @@ $(document).ready(function () {
                                     LinkedIn
                             </a>
                             <br>
-                                <a class="email Link" >
-                                    email: brettgonterman@sbcglobal.net
-                            </a>
+                            <form class="email Link" method="post" action="mailto:brettgonterman@sbcglobal.net" >
+                            <input class="sendEmail" type="submit" value="Send Email" /> 
+                            </form>
                             </h3>
                         </div>
                         
@@ -256,7 +256,7 @@ $(document).ready(function () {
         });
     }
     function moreAboutMe() {
-        $(".thirdB").html('<p class="text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi. <br> Tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem". Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>');
+        $(".thirdB").html('<p class="text">For the last five months I have been involved with web development. For the last 8 years I have been coding with javascript extending Adobe software and creating small apps within those programs. During that time as well to eight years prior I worked in the Art Department creating yearbook cover designs and artwork. I have a passion for coding and problem solving. Once I realized this was something I could do I took ownership of the challenge and wanted to know more. I could see how powerful these tools could be. I realized how much of a difference I could make not just for my department but for the whole company. Right now we have made many changes that have changed the way our plant functions. With the creation of a paper less system and extending our current workflow applications we were able to save the company over 250,000 dollars in one year. This was a big accomplishment and I am excited about the opportunity to do even more.</p>');
         $(".thirdB").width(400);
         $(".thirdB").height(300);
         //$(".thirdB").css({ top: -50, left: -50, position: 'absolute' });
