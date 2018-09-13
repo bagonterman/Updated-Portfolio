@@ -636,7 +636,7 @@ p{
     float: left;
 }
 .containerB {
-    margin: 80px auto 0;
+    margin: 50px auto 0;
     margin-top: 90px;
     margin-left:98px;
     width: 200px;
@@ -652,7 +652,7 @@ p{
     position:absolute;
     width: 100px; 
     height: 90px; 
-    margin-left: 350px;
+    margin-left: 250px;
     margin-top: -33px;
 }
 .popLeft:hover {
@@ -665,8 +665,8 @@ p{
     background-repeat: no-repeat;
     /* background-position: 49%; */
     background-position-x: 90px;
-    background-size: 50%;
-    margin-left: 450px;
+    background-size: 80%;
+    margin-left: 150px;
     margin-top: -43px;
     /* background: #37807c; */
     -webkit-transition: 0.2s linear .6s;
@@ -683,8 +683,8 @@ p{
     background-repeat: no-repeat;
     /* background-position: 49%; */
     background-position-x: -8px;
-    background-position-y: -90px;
-    background-size: 100%; 
+    background-position-y: -88px;
+    background-size: 160%; 
     -webkit-transform: perspective(200px) rotateX(0deg);
     -o-transform: perspective(200px) rotateX(0deg);
     transform: perspective(200px) rotateX(0deg);
@@ -700,8 +700,8 @@ p{
     background-image: url("../images/Me3.png");
     background-repeat: no-repeat;
     background-position-x: -8px;
-    background-position-y: -170px;
-    background-size: 100%; 
+    background-position-y: -10px;
+    background-size: 120%; 
     -webkit-transform: perspective(200px) rotateX(0deg);
     -o-transform: perspective(200px) rotateX(0deg);
     transform: perspective(200px) rotateX(0deg);
