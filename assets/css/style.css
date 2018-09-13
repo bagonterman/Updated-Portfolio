@@ -1,8 +1,5 @@
 
-/* body {
-     background-image: url("../../portfolio-Background.png");
-   
-} I can't figure this out*/
+
 
 body{
     display: flex;
@@ -349,15 +346,11 @@ li.first{
     /* display: block; */
      margin-top: 0px;
      padding: 15px;
-    /* margin-bottom: 0.67em; */
-     margin-left: 50px;
-    /* text-align: center; */
-    /* margin-right: 30px; */
     font-weight: bold; 
     font-size: 40px;
     font-family: "Times New Roman";
     color:#ffffff;
-    background-color:#4aaaa5;
+    background-color:rgb(255, 136, 0);
     width: 100%;
     height: 50px;
     /* width: 50%; */
@@ -368,14 +361,15 @@ font-family: "Helvetica Neue";
 color: #000000; text-decoration: none;
 font-size: 28px;
 font-weight: bold;
+margin-left:30px;
 }
 .whiteBkgrnd{
-    background-color:#4aaaa5;
+    background-color:rgb(255, 136, 0);
     height: 80px;
     /* border-color:#ffffff; */
 }
 .boxForHeader{
-    background-color:#4aaaa5;
+    background-color:rgb(255, 136, 0);
     width: 400px;
     height: 80px;
     margin-left: 150px;
@@ -635,6 +629,99 @@ p{
     grid-gap: 10px;
     /* float: right; */
   }
+  .signup-container {
+    position: relative;
+    width: 200px;
+    margin-left:-180px;
+    float: left;
+}
+.containerB {
+    margin: 80px auto 0;
+    margin-top: 90px;
+    margin-left:98px;
+    width: 200px;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+   
+}
+.popLeft{
+    content:"bob";
+    position:absolute;
+    width: 100px; 
+    height: 90px; 
+    margin-left: 350px;
+    margin-top: -33px;
+}
+.popLeft:hover {
+    content:"bob";
+    position:absolute;
+    width: 200px; 
+    height: 90px; 
+    background-color: #ffffff;
+    background-image: url("../images/Me3.png");
+    background-repeat: no-repeat;
+    /* background-position: 49%; */
+    background-position-x: 90px;
+    background-size: 50%;
+    margin-left: 450px;
+    margin-top: -43px;
+    /* background: #37807c; */
+    -webkit-transition: 0.2s linear .6s;
+    -o-transition: 0.2s linear .6s;
+    transition: 0.2s linear .6s;
+    -webkit-transform: scale(1); 
+}
+
+.containerB:hover .signup-listB .firstB {
+    height: 80px;
+    width: 100px;
+    background:rgb(255, 0, 157);
+    background-image: url("../images/Me3.png");
+    background-repeat: no-repeat;
+    /* background-position: 49%; */
+    background-position-x: -8px;
+    background-position-y: -90px;
+    background-size: 100%; 
+    -webkit-transform: perspective(200px) rotateX(0deg);
+    -o-transform: perspective(200px) rotateX(0deg);
+    transform: perspective(200px) rotateX(0deg);
+    -webkit-transition: 0.2s linear 0s;
+    -o-transition: 0.2s linear 0s;
+    transition: 0.2s linear 0s;
+
+}
+.containerB:hover .signup-listB .secondB {
+    height: 80px;
+    width: 100px;
+    background:rgb(255, 136, 0);
+    background-image: url("../images/Me3.png");
+    background-repeat: no-repeat;
+    background-position-x: -8px;
+    background-position-y: -170px;
+    background-size: 100%; 
+    -webkit-transform: perspective(200px) rotateX(0deg);
+    -o-transform: perspective(200px) rotateX(0deg);
+    transform: perspective(200px) rotateX(0deg);
+    -webkit-transition: 0.5s linear 0s;
+    -o-transition: 0.5s linear 0s;
+    transition: 0.5s linear 0s;
+
+}
+
+.containerB:hover .signup-listB .thirdB {
+    height: 80px;
+    width: 100px;
+    background:#ffffff;
+    -webkit-transform: perspective(200px) rotateX(0deg);
+    -o-transform: perspective(200px) rotateX(0deg);
+    transform: perspective(200px) rotateX(0deg);
+    -webkit-transition: 1s linear 0s;
+    -o-transition: 1s linear 0s;
+    transition: 1s linear 0s;
+}
 
   /* end of wrapper for about me */
   .wrapper.folioBox{
@@ -653,28 +740,16 @@ p{
   .row {
     margin: 10px -16px;
 }
-/* this is for the Contact page */
-/* input[type=text], select {
-    width: 70%;
-    padding: 8px 16px;
-    margin: 4px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-} */
-/* this is for the Contact page */
 
 h5{
     font-family: "Times New Roman";
     color: white; 
     text-align: center;
     height: 30px;
-    /* margin-top: -10px; */
-    /* margin-bottom: -60%; */
-    background-color: rgb(255, 136, 0);;
+    background-color: rgb(0, 0, 0);
+    stroke: rgb(255, 136, 0);
     width: 130px;
-    margin-top: -50px;
+    margin-top: -30px;
     position: absolute;
 }
 
@@ -700,7 +775,7 @@ h5{
      margin-top: 0px;
      padding: 15px;
     /* margin-bottom: 0.67em; */
-     margin-left: 25%;
+     /* margin-left: 25%; */
     /* text-align: center; */
     /* margin-right: 30px; */
     font-weight: bold; 
@@ -710,16 +785,13 @@ h5{
     background-color:rgb(255, 136, 0);;
     width: 100%;
     height: 50px;
-    /* width: 50%; */
 }
 .wrapper.footer{
 display: grid;
-/* grid-template-columns: repeat(2, 1fr); */
 grid-template-columns: 100%;
 padding-left: 1%;
 margin-top:15%;
 
-/* grid-gap: 10px; */
   }      
 } 
 
@@ -740,13 +812,13 @@ margin-top:15%;
 
          margin-top: 0px;
          /* padding: 15px; */
-          margin-left:40px;
+         margin-left:-15px;
         font-weight: bold; 
         font-size: 32px;
         text-align: auto;
         font-family: "Times New Roman";
         color:#ffffff;
-        background-color:#4aaaa5;
+        background-color:rgb(255, 136, 0);
         /* width: 100%; */
         height: 50px;
         
@@ -786,11 +858,11 @@ margin-top:15%;
         color: white; 
         text-align: center;
         height: 30px;
-        /* margin-top: -10px; */
-        /* margin-bottom: -60%; */
-        background-color: #4aaaa5;
+        background-color: rgb(0, 0, 0);
+        stroke: rgb(255, 136, 0);
         width: 130px;
-        margin-top: -50px;
+        margin-top: -30px;
+        width: 130px;
         position: absolute;
     }
 
@@ -804,7 +876,7 @@ margin-top:15%;
         
         .subButton{
     
-            background-color: #4aaaa5;
+            background-color: rgb(255, 136, 0);
             /* margin-left: -1080px; */
             /* margin-top: 380px; */
             margin-left: 35px; 
@@ -836,10 +908,9 @@ margin-top:15%;
             font-family: "Times New Roman";
             color: white; 
             text-align: center;
-            height: 30px;
-            background-color: #4aaaa5;
+            background-color: rgb(0, 0, 0);
             width: 130px;
-            margin-top: -50px;
+            margin-top: -30px;
             position: absolute;
         }
     
