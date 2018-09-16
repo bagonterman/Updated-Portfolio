@@ -261,6 +261,7 @@ $(document).ready(function () {
         $(".thirdB").height(300);
         if (Number($(window).width()) < 641) {
             $(".thirdB").width(200);
+            $(".thirdB").height(500);
         }
         //$(".thirdB").css({ top: -50, left: -50, position: 'absolute' });
         $(".thirdB").css({ marginLeft: "-90px" });
