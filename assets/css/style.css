@@ -632,7 +632,7 @@ p{
   .signup-container {
     position: relative;
     width: 200px;
-    margin-left:-180px;
+    margin-left:-10px;
     float: left;
 }
 .containerB {
@@ -647,6 +647,11 @@ p{
     transition: all 0.2s ease-in-out;
    
 }
+.arrow{
+  
+    margin-left: 200px;
+
+} 
 .popLeft{
     content:"bob";
     position:absolute;
@@ -683,7 +688,7 @@ p{
     background-repeat: no-repeat;
     /* background-position: 49%; */
     background-position-x: -8px;
-    background-position-y: -88px;
+    background-position-y: -90px;
     background-size: 160%; 
     -webkit-transform: perspective(200px) rotateX(0deg);
     -o-transform: perspective(200px) rotateX(0deg);
@@ -700,8 +705,8 @@ p{
     background-image: url("../images/Me3.png");
     background-repeat: no-repeat;
     background-position-x: -8px;
-    background-position-y: -10px;
-    background-size: 120%; 
+    background-position-y: -158px;
+    background-size: 160%; 
     -webkit-transform: perspective(200px) rotateX(0deg);
     -o-transform: perspective(200px) rotateX(0deg);
     transform: perspective(200px) rotateX(0deg);
@@ -711,9 +716,10 @@ p{
 
 }
 
+
 .containerB:hover .signup-listB .thirdB {
     height: 80px;
-    width: 100px;
+    width: 80px;
     background:#ffffff;
     -webkit-transform: perspective(200px) rotateX(0deg);
     -o-transform: perspective(200px) rotateX(0deg);
@@ -828,6 +834,7 @@ margin-top:15%;
         height: 80px;
         /* border-color:#ffffff; */
     }
+    
     /* end wrappers for about page */
     /* This is for contact page */
     /* input[type=text], select {
